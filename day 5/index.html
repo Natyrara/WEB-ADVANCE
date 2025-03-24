@@ -1,0 +1,85 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML tables and lists</title>
+    <style>
+        table, td, th
+        {
+            border: 1px solid;
+            border-collapse: collapse;
+            border-color:rgb(253, 188, 213);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+        <tr>
+            <th>First name</th>
+            <th>Last name</th>
+            <th>Age</th>
+            <th>Email</th>    
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Mal</td>
+            <td>Rexha</td>
+            <td>14</td>
+            <td>mal.rexha@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Natyra</td>
+            <td>Rexha</td>
+            <td>13</td>
+            <td>natyrarexha6@gmail.com</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Table Footer</td>
+            </tr>
+        </tfoot>
+    </table>
+    <br>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Anita Zeneli</td>
+            <td>Natyra Rexha</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Email</th>
+                <td>anita.zeneli@digitalschool.tech</td>
+                <td rowspan="2">natyrarexha6@gmail.com</td>
+            </tr>
+            <tr>
+                <td>anita.zeneli2@gmail.com</td>
+            </tr>
+    </table>
+    <br>
+    <ul type="square">
+        <li>Naepolitan Pizza</li>
+        <li>Margherita Pizza</li>
+        <li>Proscuitto Pizza</li>
+    </ul>
+    <br>
+    <ol type="a">
+        <li>Vegeterian Pizza</li>
+        <li>Pepperoni Pizza</li>
+        <li>Quatro Fromaggio Pizza</li>
+    </ol>
+    <br>
+    <dl>
+        <dt>Hamburger</dt>
+        <dd>Bread, meat, salad</dd>
+
+        <dt>Pizza</dt>
+        <dd>Mushrooms, pepperoni, cheese</dd>
+
+        <dt>Sandwich</dt>
+        <dd>Bread, salad, cucumber, cheese</dd>
+    </dl>
+</body>
+</html>
