@@ -1,0 +1,36 @@
+article p {
+    background: rgb(255, 163, 209);
+    color: rgb(6, 28, 87);
+    padding: 20px;
+}
+article > p {
+    background: rgb(6, 28, 87);
+    color: rgb(255, 163, 209);
+}
+article ~ p {
+    background: rgb(255, 163, 209);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+article + p{
+    background: rgb(255, 201, 237);
+    color: rgb(6, 28, 87);
+}
+input:out-of-range {
+    border: 3px solid rgb(6, 28, 87);
+}
+span:first-of-type {
+    background: rgb(6, 28, 87);
+    color: rgb(255, 163, 209);
+    padding: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+input:invalid {
+    border: 2px solid rgb(255, 163, 209);
+}
+input:valid {
+    border: 2px solid rgb(255, 201, 237);
+}
