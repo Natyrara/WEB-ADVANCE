@@ -1,0 +1,27 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    background-color: #ffdeec;
+}
+
+header {
+    padding: 55px;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li.active {
+    background-color: #fec9e0;
+    border-radius: 5px;
+}
