@@ -1,0 +1,56 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    height: 10%;
+    background-color: #ffecf4;
+}
+
+header {
+    padding: 1px;
+    display: grid;
+    justify-content: space-evenly;
+
+    
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 16px;
+    margin-bottom: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li.active {
+    background-color: #ffe3ee;
+    border-radius: 5px;
+}
+
+body {
+    background-color: #fff6f9;
+}
+
+button {
+    color: #ffe3ee;
+}
+
+@media (min-width: 600px) {
+    body {  
+        background: #fff3f4;
+        color: rgb(255, 205, 205) 
+    }
+}
+
+@media all and (max-widht: 600px) {
+    body {
+        background: #ffc5c5;
+        color: rgb(255, 227, 227);
+    }
+}
+
+a:hover {
+    color: #fff8ef;
+}
